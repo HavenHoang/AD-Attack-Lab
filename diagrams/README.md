@@ -1,3 +1,3 @@
 ## Lab Architecture
 
-![Lab Diagram](diagram.pdf)
+![Lab Diagram](diagram.png)
