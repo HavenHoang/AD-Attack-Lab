@@ -55,7 +55,7 @@ Certipy was then used to retrieve:
 - Kerberos TGT
 - NTLM hash of the Administrator account
 
-![PKINIT TGT and NTLM Obtained](../screenshots/lab/21.%20adcs_pkinit_tgt_nt%7Cm_obtained.png)
+![PKINIT TGT and NTLM Obtained](../screenshots/lab/21.%20adcs_pkinit_tgt_ntlm_obtained.png)
 
 ---
 
