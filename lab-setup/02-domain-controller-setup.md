@@ -1,6 +1,6 @@
 # Domain Controller Setup
 
-## 1️⃣ Install AD DS + DNS Server Roles
+## Install AD DS + DNS Server Roles
 
 Active Directory Domain Services (AD DS) and DNS Server roles were installed using Server Manager → Add Roles and Features.
 
@@ -8,7 +8,7 @@ Active Directory Domain Services (AD DS) and DNS Server roles were installed usi
 
 ---
 
-## 2️⃣ Promote Server to Domain Controller
+## Promote Server to Domain Controller
 
 The server was promoted to a Domain Controller. A new domain `corp.local` was created.
 
@@ -16,7 +16,7 @@ The server was promoted to a Domain Controller. A new domain `corp.local` was cr
 
 ---
 
-## 3️⃣ Domain Login Verification
+## Domain Login Verification
 
 After promotion, the administrator logged into the new domain to verify the Domain Controller setup.
 
