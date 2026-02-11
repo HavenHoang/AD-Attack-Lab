@@ -1,30 +1,32 @@
-# AD-Attack-Lab
-Active Directory attack lab: AS-REP, Kerberoasting, ADCS ESC1
+# Active Directory Attack Lab – AS-REP Roasting, Kerberoasting, ADCS ESC1
 
-## Overview
-This project demonstrates common Active Directory attack paths in a controlled lab environment.
-The lab focuses on Kerberos authentication abuse and misconfigured Active Directory Certificate Services.
+This repository documents a hands-on Active Directory attack lab designed to simulate real-world enterprise misconfigurations and demonstrate common privilege escalation techniques.
+
+## Lab Objectives
+- Build a Windows Active Directory environment
+- Introduce intentional AD misconfigurations
+- Exploit Kerberos and ADCS vulnerabilities
+- Demonstrate full domain compromise
 
 ## Lab Environment
-- Domain Controller: Windows Server 2022
-- Attacker Machine: Kali Linux
-- Domain: corp.local
+- Windows Server (Domain Controller)
+- Active Directory Domain: corp.local
+- ADCS (Certificate Authority)
+- Kali Linux (Attacker)
+- VirtualBox Host-Only Network
 
-## Attack Techniques
-- AS-REP Roasting
-- Kerberoasting
-- ADCS ESC1 (Certificate Abuse)
+## Attack Chain
+1. AS-REP Roasting → Obtain initial credentials
+2. Kerberoasting → Compromise service account
+3. ADCS ESC1 → Certificate-based privilege escalation
+4. Domain Admin compromise
 
-## Tools Used
-- Impacket
-- Certipy
-- CrackMapExec
-
-## Learning Objectives
-- Understand Kerberos authentication mechanisms
-- Identify weak service account configurations
-- Exploit vulnerable ADCS certificate templates
-- Practice detection and mitigation strategies
+## Repository Structure
+- lab-setup/ – Domain setup & misconfiguration
+- attacks/ – Step-by-step attack execution
+- detection/ – Detection & mitigation ideas
+- diagrams/ – Network & attack flow diagrams
+- screenshots/ – Screenshots referenced in documentation
 
 ## Disclaimer
-This project is for educational purposes only and was performed in a controlled lab environment.
+This lab is for educational and defensive security research purposes only.
