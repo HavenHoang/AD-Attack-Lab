@@ -1,6 +1,6 @@
 # Active Directory Certificate Services (ADCS) Installation
 
-## 1️⃣ Install ADCS Role
+## Install ADCS Role
 
 The Certificate Authority role (ADCS) was installed using Server Manager → Add Roles and Features.
 
@@ -8,7 +8,7 @@ The Certificate Authority role (ADCS) was installed using Server Manager → Add
 
 ---
 
-## 2️⃣ Verify Installation
+## Verify Installation
 
 After installation, ADCS services were verified to be running and accessible for certificate requests.
 
