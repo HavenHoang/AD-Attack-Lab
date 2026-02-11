@@ -1,6 +1,6 @@
 # User Creation & AD Misconfigurations
 
-## 1️⃣ Create Active Directory Users
+## Create Active Directory Users
 
 Three domain users were created to simulate different privilege levels:
 
@@ -14,7 +14,7 @@ These accounts will be used for attack and privilege escalation testing.
 
 ---
 
-## 2️⃣ AS-REP Roasting Preparation
+## AS-REP Roasting Preparation
 
 Kerberos pre-authentication was disabled for specific users to allow AS-REP roasting attacks.
 
@@ -22,7 +22,7 @@ Kerberos pre-authentication was disabled for specific users to allow AS-REP roas
 
 ---
 
-## 3️⃣ Kerberoasting Preparation
+## Kerberoasting Preparation
 
 A Service Principal Name (SPN) was assigned to the service account `svc_sql`:
 
@@ -33,7 +33,7 @@ A Service Principal Name (SPN) was assigned to the service account `svc_sql`:
 
 ---
 
-## 4️⃣ Create Vulnerable ADCS Certificate Template
+## Create Vulnerable ADCS Certificate Template
 
 A vulnerable ADCS certificate template was created by duplicating the default User template and modifying:
 
