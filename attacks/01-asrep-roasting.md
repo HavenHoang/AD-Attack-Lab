@@ -14,7 +14,7 @@ Because pre-authentication was not required, an unauthenticated AS-REP request w
 
 The DC responded with an AS-REP message encrypted using the user’s password hash, allowing the attacker to obtain a crackable Kerberos hash without valid credentials.
 
-![AS-REP Hash Retrieved](../screenshots/14.%20asrep_no_preauth_hash_retrieved.png)
+![AS-REP Hash Retrieved](../screenshots/lab/14.%20asrep_no_preauth_hash_retrieved.png)
 
 ---
 
@@ -24,9 +24,9 @@ The retrieved AS-REP hash was cracked offline using Hashcat.
 
 Since this attack does not require valid authentication, it generates minimal logging and can bypass traditional login monitoring mechanisms.
 
-![AS-REP Hash Cracking Process](../screenshots/15.1.%20asrep_hash_cracked.png)
+![AS-REP Hash Cracking Process](../screenshots/lab/15.1.%20asrep_hash_cracked.png)
 
-![AS-REP Password Recovered](../screenshots/15.2.%20asrep_hash_cracked.png)
+![AS-REP Password Recovered](../screenshots/lab/15.2.%20asrep_hash_cracked.png)
 
 ---
 
