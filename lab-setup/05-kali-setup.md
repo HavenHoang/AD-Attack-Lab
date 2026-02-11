@@ -1,6 +1,6 @@
 # Kali Linux Setup (Attacker Machine)
 
-## 1️⃣ Host-Only Network Configuration
+## Host-Only Network Configuration
 
 The Kali Linux virtual machine was configured using VirtualBox Host-Only networking.
 
@@ -16,7 +16,7 @@ Proper network configuration is critical for Active Directory attack simulations
 
 ---
 
-## 2️⃣ Offensive Tools Installation
+## Offensive Tools Installation
 
 The following offensive security tools were installed and verified on Kali:
 
